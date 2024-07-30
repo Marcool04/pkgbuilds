@@ -1,10 +1,5 @@
 # The packages to be built. Must be topologically sorted w.r.t dependencies.
-k3s-bin
-github-actions-bin
-alac-git
-nqptp-git
-shairport-sync-git
-swift-bin
-mixxx-git
-paru
-yay
+bash-complete-alias
+paru-bin
+rate-mirrors
+tio
