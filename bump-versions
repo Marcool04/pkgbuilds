@@ -42,6 +42,7 @@ def main():
 
     print('==> Updating packages')
     for pkg in pkgs:
+        print(f'Working on package{pkg}')
         aur_pkgbuild = fetch_aur_pkgbuild(pkg)
         local_pkgbuild = read_local_pkgbuild(pkg)
 
