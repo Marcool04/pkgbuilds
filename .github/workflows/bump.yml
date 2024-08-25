@@ -36,7 +36,3 @@ jobs:
       run: |
         git add -A
         git commit -m "Bump packages ($(date '+%Y-%m-%d-%H-%M'))" || true
-    - name: Pull from git repo with rebase
-      run: git pull --rebase origin master
-    - name: Push updates
-      run: git push
