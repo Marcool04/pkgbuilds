@@ -35,6 +35,4 @@ jobs:
     - name: Commit updates
       run: |
         git add -A
-        git commit -m "Bump packages ($(date '+%Y-%m-%d-%H-%M'))" || true 
-    - name: Push updates
-      run: git push
+        git commit -m "Bump packages ($(date '+%Y-%m-%d-%H-%M'))" || true
