@@ -15,8 +15,6 @@ jobs:
     strategy:
       matrix:
         include:
-        - platform: linux/amd64
-          arch: x86_64
         - platform: linux/arm64
           arch: aarch64
 
