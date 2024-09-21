@@ -1,6 +1,5 @@
 # The packages to be built. Must be topologically sorted w.r.t dependencies.
 bash-complete-alias
-netdata
 paru-bin
 rate-mirrors
 tio
