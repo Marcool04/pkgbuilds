@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout
     - name: Bump versions via the AUR
       run: ./bump-versions
     - name: Bump derived info
