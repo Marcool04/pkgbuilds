@@ -25,6 +25,10 @@ for pkg in "${pkgs[@]}"; do
     cd "$pkg"
 
     updpkgsums
+    grep -l -R 'BEGIN PGP PUBLIC KEY BLOCK' | while read -r keyfile; do
+        echo "Found GPG keyfile $keyfile, importing."
+        gpg --import "$keyfile"
+    done
     makepkg --nobuild --noprepare --nodeps # Autobump VCS versions
     makepkg --printsrcinfo > .SRCINFO
   )
