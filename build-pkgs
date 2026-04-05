@@ -25,6 +25,11 @@ for pkg in "${pkgs[@]}"; do
   (
     cd "$pkg"
 
+    grep -l -R 'BEGIN PGP PUBLIC KEY BLOCK' | while read -r keyfile; do
+        echo "Found GPG keyfile $keyfile, importing."
+        gpg --import "$keyfile"
+    done
+
     # Build the package (and compress later to speed things up under emulation)
     if PKGDEST="$builddir" PKGEXT='.pkg.tar' makepkg -si --noconfirm --nocheck; then
       echo "$pkg built successfully"
