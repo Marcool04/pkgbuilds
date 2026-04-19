@@ -1,7 +1,7 @@
 # Maintainer: Martin Hundebøll <martin@hundeboll.net>
 
 pkgname=tio
-pkgver=3.6
+pkgver=3.9
 pkgrel=1
 pkgdesc="The simple TTY terminal I/O application"
 url="https://tio.github.io/"

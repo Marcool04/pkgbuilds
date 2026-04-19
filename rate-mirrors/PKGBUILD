@@ -1,8 +1,8 @@
 # Maintainer: Nikita Almakov <nikita.almakov@gmail.com>
 
 pkgname=rate-mirrors
-pkgver=0.18.0
-pkgrel=1
+pkgver=0.25.0
+pkgrel=2
 pkgdesc="Everyday-use client-side map-aware mirror ranking tool"
 url="https://github.com/westandskif/rate-mirrors"
 license=('custom')
