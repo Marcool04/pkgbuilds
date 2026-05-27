@@ -11,7 +11,7 @@ depends=('glibc' 'lua' 'glib2')
 optdepends=('bash-completion: bash completion support')
 makedepends=('meson')
 source=("https://github.com/tio/tio/releases/download/v$pkgver/$pkgname-$pkgver.tar.xz")
-sha256sums=('04a91686f8a19f157b885a7c146a138b4cff6a3fb8dba48723d1fdad15c61167')
+sha256sums=('06fe0c22e3e75274643c017928fbc85e86589bc1acd515d92f98eecd4bbab11b')
 
 build() {
   cd "$srcdir/$pkgname-$pkgver"

@@ -28,4 +28,4 @@ package() {
 }
 
 #vim: syntax=sh
-sha256sums=('be1985ab978b46a1eeba03379f28d62e27d28c170ed6091a339f80ba7ffc85d6')
+sha256sums=('d9a1a43867b860bcd6aa9e3f8062455bce9f965d92256fcc0e20187b835d4214')
