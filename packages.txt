@@ -3,6 +3,5 @@ bash-complete-alias
 ddns-updater
 openssl-1.1
 paru
-paru-bin
 rate-mirrors
 tio
