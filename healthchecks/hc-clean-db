@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+hc-manage prunepingsslow
+hc-manage pruneusers
+hc-manage prunetokenbucket
+hc-manage pruneobjects
